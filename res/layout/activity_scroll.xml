@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    <LinearLayout 
+        android:id="@+id/contain"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#888800"
+        android:orientation="vertical"
+        >
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="200dp"
+            android:orientation="vertical"
+            >
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.首先我们需要下载非常好用的手机屏幕录像应用程序"
+            />
+        <Button 
+            android:id="@+id/bt_Ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="我是按钮"
+            />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <com.example.ucindex.widget.TouchListView
+ 
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    
+
+</LinearLayout>
